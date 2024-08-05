@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Detalles del Guerrero</title>
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="warrior-details">
+            <img id="warrior-image" src="assets/img/icons/default.png" alt="Imagen del Guerrero">
+            <div class="details">
+                <h2 id="warrior-name">Nombre del Guerrero</h2>
+                <p id="warrior-race">Raza: </p>
+                <p id="warrior-type">Tipo: </p>
+                <p id="warrior-health">Salud: </p>
+                <p id="warrior-attack">Ataque: </p>
+                <p id="warrior-defense">Defensa: </p>
+            </div>
+            <div class="powers">
+                <h3>Poderes</h3>
+                <table id="powers-table">
+                    <!-- Poderes del guerrero -->
+                </table>
+            </div>
+        </div>
+        <div class="buttons">
+            <button onclick="selectWarrior()">Seleccionar</button>
+            <button onclick="goBackToSelection()">Atrás</button>
+        </div>
+    </div>
+
+    <script src="assets/js/main.js"></script>
+</body>
+</html>

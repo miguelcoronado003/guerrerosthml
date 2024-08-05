@@ -1,0 +1,55 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f8ff;
+    color: #333;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+    background-color: #ffffff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.header {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 20px;
+}
+
+.points {
+    font-size: 1.2em;
+    color: #1e90ff;
+}
+
+.player-info, .warrior-list, .warrior-details, .players-info {
+    margin-bottom: 20px;
+}
+
+.warrior-list ul {
+    list-style: none;
+    padding: 0;
+}
+
+.warrior-list li {
+    margin-bottom: 10px;
+}
+
+.buttons {
+    text-align: center;
+    margin-top: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #1e90ff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin: 0 10px;
+}
+
+button:hover {
+    background-color: #4169e1;
+}
